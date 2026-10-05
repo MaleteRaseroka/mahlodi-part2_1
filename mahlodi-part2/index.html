@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mahlodi Bakehouse provides freshly baked bread, pastries, cakes and customised baked goods.">
+  <title>Mahlodi Bakehouse | Home</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Website header and main navigation -->
+  <header>
+    <h1>Mahlodi Bakehouse</h1>
+    <nav aria-label="Main navigation">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="about.html">About</a>
+      <a href="products.html">Products</a>
+      <a href="enquiry.html">Enquiry</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Main homepage content -->
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <h2>Freshly Baked. Made With Care.</h2>
+        <p>
+          Welcome to Mahlodi Bakehouse, a fictional local bakery
+          created to provide fresh and delicious baked goods for
+          customers, families and special occasions.
+        </p>
+        <p>
+          From everyday bread to customised celebration cakes,
+          our goal is to provide quality baked products and
+          friendly customer service.
+        </p>
+        <a href="products.html">View Our Products</a>
+      </div>
+
+      <!-- Responsive hero image: browser picks the best file for the screen width -->
+      <div class="hero-image">
+        <picture>
+          <source media="(max-width: 767px)" srcset="images/bakery-hero-480.jpg">
+          <img src="images/bakery-hero.jpg"
+               srcset="images/bakery-hero-480.jpg 480w, images/bakery-hero-800.jpg 800w, images/bakery-hero.jpg 1200w"
+               sizes="(max-width: 767px) 100vw, 50vw"
+               alt="Fresh bakery products"
+               width="1200" height="900">
+        </picture>
+      </div>
+    </section>
+
+    <section>
+      <h2>What We Offer</h2>
+
+      <article>
+        <h3>Fresh Bread</h3>
+        <p>Freshly prepared bread suitable for everyday meals and family occasions.</p>
+      </article>
+
+      <article>
+        <h3>Pastries</h3>
+        <p>A selection of sweet and savoury pastries prepared for breakfast, snacks and events.</p>
+      </article>
+
+      <article>
+        <h3>Celebration Cakes</h3>
+        <p>Customised cakes designed for birthdays, celebrations and special occasions.</p>
+      </article>
+    </section>
+
+    <section>
+      <h2>Need a Custom Order?</h2>
+      <p>
+        Contact us with your requirements and we can discuss
+        your preferred product and order details.
+      </p>
+      <a href="enquiry.html">Make an Enquiry</a>
+    </section>
+  </main>
+
+  <!-- Website footer -->
+  <footer>
+    <p>&copy; 2026 Mahlodi Bakehouse. Academic project.</p>
+  </footer>
+
+</body>
+</html>
